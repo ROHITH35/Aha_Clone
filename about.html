@@ -1,0 +1,668 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <link rel="icon" type="image/x-icon" href="./images/Aha-1024x576-removebg-preview1.png"  >
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
+        <title>Drama Master</title>
+
+
+
+        <style>
+          body{
+            background-color: rgb(36, 35, 35);
+            object-fit: cover;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+          }
+          .icon{
+            height: 500px;
+            width: 500px;
+          }
+          .carousel img{
+            object-fit: cover;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 510px;
+          }
+          .card img{
+            object-fit: cover;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+          }
+.carousel{
+  height:500px;
+  
+}
+.navbar{
+  background: none;
+  backdrop-filter: blur(1px);
+  transition: black 0.3s;
+ 
+}
+#n{
+  margin-top: -30%;
+}
+li,a{
+text-decoration: none;
+list-style: none;
+font-size: 20px;
+color: rgb(246, 240, 240);
+}
+.card:hover{
+  margin-top: -10px;
+  transition: 0.9s;
+  
+}
+.card-body .card{
+  border-radius: 10px;
+}
+.card{
+  border-radius: 10px 10px 10px 10px;
+  border: transparent;
+}
+.card img{
+  object-fit: cover;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  border: transparent;
+}
+#c .card{
+  border-radius: 10px 10px 10px 10px;
+}
+#c img{
+  object-fit: cover;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-item {
+  transition: transform 0.3s ease; 
+}
+
+
+
+.container-fluid {
+  
+  
+  white-space: nowrap;
+ 
+}
+
+.card {
+  display: inline-block;
+  width: 172px;
+  height: 250px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: transparent;
+ 
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+ 
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: transparent;
+ 
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.carousel-sign {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor:move;
+}
+
+svg{
+  margin-right: 7%;
+  color: white;
+  margin-top: -20px;
+  background: transparent;
+
+}
+#g{
+  margin-left: -5px;
+  color: white;
+  margin-top: -15px;
+  background: transparent;
+}
+#g1{
+  margin-left: -5%;
+  color: white;
+  margin-top: -19px;
+  background: transparent;
+  color: rgb(80, 78, 78);
+}
+
+@keyframes na {
+  0%{
+    background-color: transparent;
+    opacity: 0;
+
+  }
+  100%{
+    background-color: #555;
+    opacity: 1;
+  }
+  
+}
+
+
+.navbar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 20px;
+            background-color: transparent;
+            
+           
+        }
+
+        .navbar button {
+            background-color: #ff5b2d;
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-right: 20px;
+            margin-top: -30px;
+        }
+        .cards-wrapper::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for Chrome, Safari, and Opera */
+}
+
+        .navbar button:hover {
+            background-color: #e64b25;
+        }
+
+        .navbar .signin {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: #fff;
+        }
+
+        .navbar .signin img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            border-radius: 50%;
+            background-color: #555;
+        }
+.nav-item small:hover{
+  color: rgb(253, 251, 251);
+  font-size: 15px;
+}
+
+.carousel-inner{
+  display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; 
+    overflow: hidden;
+}
+
+
+
+
+
+
+.ee{
+  margin-left: -10px;
+  overflow-x: scroll;
+ 
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    overflow-x: scroll;
+}
+
+.cards-wrapper {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.cards-wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#qw{
+  display: flex;
+}
+        
+        </style>
+
+<body>
+
+  
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid px-5">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbarToggler" aria-controls="myNavbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbarToggler">
+        <a class="navbar-brand" href="#"><img src="images\Aha-1024x576-removebg-preview.png" alt="logo" height="100px" width="180px" style="margin-left: -44%;margin-top: -15%;"></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: -7%;margin-top: -1.5%;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html"><small style="margin-left: -45%;font-size: 12px;"><span style="font-size: 14px;">H</span>OME</small></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html"><small style="margin-left: 20%;font-size: 14px;">Register</small></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./drama.html"><small style="font-size: 14px;margin-left: 80%;">Movies</small> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html"><small style="font-size: 14px;margin-left: 90%;">Dramas</small> </a>
+          </li>
+        </ul>
+        <a href="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16" id="g">
+            <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
+            <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
+          </svg></a>
+
+
+       <a href="" style="margin-left: 10px;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" >
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg></a>
+        
+
+        
+
+
+
+
+
+        <div class="navbar">
+          <button ><a href="register.html">Subscribe </a></button>
+         
+      </div>
+      <a href="login.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" id="g1" title="Sign In" style="margin-top: 11px;">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+        </svg>
+        
+        <p style="margin-left: 50%;margin-top: -35%;">Login In</p>
+        </a>
+    </div></div>
+  </nav>
+
+  <div id="mycarousel" class="carousel slide" data-bs-ride="carousel" >
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/oregairu.jpg" class="d-block w-100" height="550px" >
+        <div class="carousel-caption d-none d-md-block">
+            <h1>MY ROMANTIC TEEN COMEDY</h5>
+           
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/tale.jpg" class="d-block w-100" height="550px"  >
+      
+      </div>
+      <div class="carousel-item">
+        <img src="./images/demon1.jpg" class="d-block w-100" height="550px" >
+        <div class="carousel-caption d-none d-md-block">
+            <h1>DEMON SLAYER</h5>
+           
+          </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" ></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    
+  </div>
+  
+  <br>
+<br>
+
+<h3 style="color: white;margin-left: 35px;">DRAMA</h3>
+
+
+  <div class="container-fluid" id="qw">
+    <div class="row card-group">
+      <div class="col-md-1 card" style="margin-left: 30px;">
+        <a href="https://dramacool.taxi/drama/twenty-five-twenty-one-2022/" style="text-decoration: none;">
+          <img src="./images/25.jpg">
+       <div class="card-footer">
+        <h5 style="color: white;margin-top: -10px;">2521</h5>
+       </div>
+       </a>
+      </div>
+      <div class="col-md-1 card" style="margin-left: -20px;">
+        <a href="https://myasiantv.ac/show/memorist" style="text-decoration: none;">
+        <img src="./images/memorist.jpg">
+        <div class="card-footer">
+          <h5 style="color: white;margin-top: -10px;">MEMORIST</h5>
+         </div>
+     </a>
+    </div>
+   
+    <div class="col-md-1 card" style="margin-left: -20px; object-fit: cover;background-position: center;">
+      <a href="https://dramacool.taxi/drama/tale-of-the-nine-tailed/" style="text-decoration: none;">
+      <img src="./images/tale.jpg">
+      <div class="card-footer">
+        <h5 style="color: white;margin-top: -10px;margin-left: -10px;"> Nine Taled Fox</h5>
+       </div>
+       </a>
+  </div>
+  <div class="col-md-1 card" style="margin-left: -20px;">
+    <a href="https://dramacool.taxi/drama/taxi-driver-2021/" target="_blank" style="text-decoration: none;">
+    <img src="./images/taxi.jpg">
+    <div class="card-footer">
+      <h5 style="color: white;margin-top: -10px;">Taxi Driver</h5>
+     </div>
+     </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://dramacool.taxi/drama/taxi-driver-2021/" target="_blank">
+  <img src="./images/alice.jpg">
+  <div class="card-footer">
+    <h6 style="color: white;margin-top: -10px;margin-left: -15px;">Alice In Borderland</h6>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://dramacool.taxi/drama/hospital-playlist-2-2021/">
+  <img src="./images/hospital-playlist.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Hospital Playlist</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://myasiantv.ac/show/mouse" style="text-decoration: none;">
+  <img src="./images/mouse.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Mouse</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://myasiantv.ac/show/my-dearest-part-2" style="text-decoration: none;">
+  <img src="./images/my-dearest-1.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">My Dearest</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://dramacool.taxi/drama/reborn-rich-2022/" style="text-decoration: none;">
+  <img src="./images/Reborn.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Reborn Rich</h5>
+   </div>
+   </a>
+</div>
+
+    </div>
+  </div>
+  
+      <hr>
+      
+  <h3 style="color: white;margin-left: 35px;">Anime</h3>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-1 card" style="margin-left: 30px;">
+        <a href="https://hianime.to/watch/my-teen-romantic-comedy-snafu-454?ep=9704">
+          <img src="./images/oregairu.jpg">
+       <div class="card-footer">
+        <h5 style="color: white;margin-top: -10px;">Oregairu</h5>
+       </div>
+       </a>
+      </div>
+      <div class="col-md-1 card" style="margin-left: -20px;">
+        <a href="https://hianime.to/watch/naruto-shippuden-355?ep=7882">
+        <img src="./images/naruto1.jpg">
+        <div class="card-footer">
+          <h5 style="color: white;margin-top: -10px;">Naruto</h5>
+         </div>
+     </a>
+    </div>
+    <div class="col-md-1 card" style="margin-left: -20px; ">
+      <a href="https://hianime.to/watch/tokyo-revengers-15585?ep=64630" style="text-decoration: none;">
+      <img src="./images/tokyo.jpg">
+      <div class="card-footer">
+        <h5 style="color: white;margin-top: -10px;margin-left: -10px;">Tokyo Revengers</h5>
+       </div>
+       </a>
+  </div>
+  <div class="col-md-1 card" style="margin-left: -20px;">
+    <a href="https://hianime.to/your-name-10?ref=search" style="text-decoration: none;">
+    <img src="./images/name.jpg">
+    <div class="card-footer" style="object-fit: cover;background-position: center;background-size: cover;">
+      <h5 style="color: white;margin-top: -10px;">My Name</h5>
+     </div>
+     </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://hianime.to/baki-2649" style="text-decoration: none;">
+  <img src="./images/baki1.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Hanma Baki</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://hianime.to/watch/death-note-60?ep=1464">
+  <img src="./images/death_note1.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Death Note</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://hianime.to/demon-slayer-kimetsu-no-yaiba-hashira-training-arc-19107">
+  <img src="./images/demon1.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Demon Slayer</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="  https://hianime.to/watch/suzumes-doorlocking-18190?ep=100501" style="text-decoration: none;">
+  <img src="./images/suzume.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Suzume</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="  https://hianime.to/watch/suzumes-doorlocking-18190?ep=100501" style="text-decoration: none;">
+  <img src="./images/wind1.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Wind Breaker</h5>
+   </div>
+   </a>
+</div>
+    </div>
+  </div>
+  
+      
+      
+  
+
+
+  
+  <hr>
+      
+  <h3 style="color: white;margin-left: 35px;">Movies</h3>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-1 card" style="margin-left: 30px;">
+        
+          <img src="./images/pspk.jpg" style="background-position: center;background-size: cover;">
+       <div class="card-footer">
+        <h5 style="color: white;margin-top: -10px;margin-left: -15px;">They Call Him OG</h5>
+       </div>
+      </div>
+      <div class="col-md-1 card" style="margin-left: -20px;">
+        <a href="https://vidstream.to/movie/watch-inception-19764" style="text-decoration: none;">
+        <img src="./images/in.jpg">
+        <div class="card-footer">
+          <h5 style="color: white;margin-top: -10px;">Inception</h5>
+         </div>
+     </a>
+    </div>
+    <div class="col-md-1 card" style="margin-left: -20px; ">
+      <a href="https://vidstream.to/movie/watch-kill-bill-vol-1-19131">
+      <img src="./images/Kill-Bill.jpg">
+      <div class="card-footer">
+        <h5 style="color: white;margin-top: -10px;margin-left: -10px;">Kill Bill</h5>
+       </div>
+       </a>
+  </div>
+  <div class="col-md-1 card" style="margin-left: -20px;">
+    <a href="https://vidstream.to/movie/watch-the-irishman-6575" style="text-decoration: none;">
+    <img src="./images/irishman.jpg">
+    <div class="card-footer" style="object-fit: cover;background-position: center;background-size: cover;">
+      <h5 style="color: white;margin-top: -10px;">Irishman</h5>
+     </div>
+     </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://vidstream.to/movie/watch-the-dark-knight-19752" style="text-decoration: none;">
+  <img src="./images/dark.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Dark Knight</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://vidstream.to/movie/watch-oldboy-18866" style="text-decoration: none;">
+  <img src="./images/old.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Old Boy</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://vidstream.to/movie/watch-interstellar-19788" style="text-decoration: none;">
+  <img src="./images/int.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Interstellar</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://vidstream.to/movie/watch-oppenheimer-98446" >
+  <img src="./images/open.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;margin-left: -10px;">Oppenheimer</h5>
+   </div>
+   </a>
+</div>
+<div class="col-md-1 card" style="margin-left: -20px;">
+  <a href="https://vidstream.to/watch-movie/watch-tenet-63301/1149873" target="_blank">
+  <img src="./images/tenet.jpg">
+  <div class="card-footer">
+    <h5 style="color: white;margin-top: -10px;">Tenet</h5>
+   </div>
+   </a>
+</div>
+    </div>
+  </div>
+  
+  
+  
+
+<script>
+ 
+
+function scrollLeft() {
+        const carousel = document.querySelector('.carousel');
+        carousel.scrollBy({ left: -300, behavior: 'smooth' });
+    }
+
+    function scrollRight() {
+        const carousel = document.querySelector('.carousel');
+        carousel.scrollBy({ left: 300, behavior: 'smooth' });
+    }
+</script>
+  
+
+
+</body>
+
+   
+</html>
